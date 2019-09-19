@@ -60,6 +60,9 @@ var btnJugadorDos = document.querySelector("#btnJugadorDos").addEventListener("c
         }else if(this._suma == 37){
             this._suma = 13;
             console.log('OH NO, te topaste con una serpiente, bajarás hasta: ' + this._suma);
+        }else if(this._suma == 27){
+            this._suma = 10;
+            console.log('OH NO, te topaste con una serpiente, bajarás hasta: ' + this._suma);
         }
 
 
@@ -77,6 +80,17 @@ var btnJugadorDos = document.querySelector("#btnJugadorDos").addEventListener("c
             this._suma = 76;
             console.log('¡QUÉ BIEN, llegaste a unas escalera subes hasta: ' + this._suma);
         }else if(this._suma == 77){
+            this._suma = 95;
+            console.log('¡QUÉ BIEN, llegaste a unas escalera subes hasta: ' + this._suma);
+        }
+        //3 últimas escaleras
+        else if(this._suma == 32){
+            this._suma = 55;
+            console.log('¡QUÉ BIEN, llegaste a unas escalera subes hasta: ' + this._suma);
+        }else if(this._suma == 61){
+            this._suma = 75;
+            console.log('¡QUÉ BIEN, llegaste a unas escalera subes hasta: ' + this._suma);
+        }else if(this._suma == 85){
             this._suma = 95;
             console.log('¡QUÉ BIEN, llegaste a unas escalera subes hasta: ' + this._suma);
         }
